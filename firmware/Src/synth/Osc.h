@@ -23,7 +23,7 @@
 #include "Matrix.h"
 
 #ifndef PFM3_FAST_FEEDBACK_INTERP
-#define PFM3_FAST_FEEDBACK_INTERP 0
+#define PFM3_FAST_FEEDBACK_INTERP 1
 #endif
 
 extern float sinTable[];
