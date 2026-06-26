@@ -126,6 +126,7 @@ struct FlashSynthParams {
     struct StepSequencerParams lfoSeq2;
     struct StepSequencerSteps lfoSteps1;
     struct StepSequencerSteps lfoSteps2;
+    char presetName[13];
     struct EngineArp1 engineArp1;
     struct EngineArp2 engineArp2;
     struct FlashEngineVeloIm1 flashEngineVeloIm1;
@@ -147,7 +148,6 @@ struct FlashSynthParams {
     struct OperatorPhaseRowParams phaseOp5;
     struct OperatorPhaseRowParams phaseOp6;
     struct EngineDecimationParams engineDecimation;
-    char presetName[13];
     struct LfoSyncModes lfoSyncModes;
 };
 
